@@ -117,7 +117,7 @@ These features can be enabled later if more detailed operating system metrics, P
 
 ## Step 14 – Configure Database Options and Encryption
 
-![RDS Database Options and Encryption](https://github.com/Kevinolee1/AWS/blob/36e78a0762ba9c799d219574c97e9e7be346f93d/Screenshot%202026-10-05%20115141.png)
+![RDS Database Options and Encryption](https://github.com/Kevinolee1/AWS/blob/03134c7ec7dfb0964c09d2d1791e66788a87f725/Screenshot%202026-10-06%20053307.png)
 
 **Figure 14 – Configuring Database Options and Encryption:** I reviewed the additional database configuration settings for the PostgreSQL RDS instance.
 
