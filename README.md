@@ -45,7 +45,7 @@ For this Cloud DBA lab, I proceeded with **PostgreSQL** as the relational databa
 
 ## Step 6 – Configure the RDS Instance
 
-![RDS Instance Configuration](images/06-rds-instance-configuration.png)
+![RDS Instance Configuration](https://github.com/Kevinolee1/AWS/blob/620b238a4de62a1edc9fe43ddbc4545ed2700943/Screenshot%202026-10-05%20113059.png)
 
 **Figure 6 – RDS Instance Configuration:** I selected the database creation settings and configured the PostgreSQL RDS instance for the lab environment.
 
