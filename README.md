@@ -167,7 +167,7 @@ After verifying the configuration, I selected **Create database** to begin provi
 
 ## Step 19 – Resolve the Backup Retention Configuration Error
 
-![RDS Backup Retention Error](images/19-backup-retention-error.png)
+![RDS Backup Retention Error](https://github.com/Kevinolee1/AWS/blob/aa46e7fd7ffd799dc823ed42b2b38591fbc45731/Screenshot%202026-10-05%20120454.png)
 
 **Figure 19 – Troubleshooting Database Creation:** My first attempt to create the `cloud-dba-lab` RDS instance failed because the configured backup retention period exceeded the limit available under my AWS Free plan.
 
