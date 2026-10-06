@@ -134,3 +134,58 @@ I left the **Initial database name** blank because the database for the lab woul
 This allows Amazon RDS to automatically create an initial PostgreSQL database when the RDS instance is provisioned.
 
 I kept the default PostgreSQL 18 parameter and option groups and maintained **encryption at rest** using the AWS-managed RDS KMS key (`aws/rds`).
+
+## Step 16 – Configure Automated Backups and Maintenance
+
+![Configure RDS Backups and Maintenance](images/16-backups-maintenance.png)
+
+**Figure 16 – Configuring Automated Backups and Maintenance:** I enabled **automated backups** for the PostgreSQL RDS instance and configured a **1-day backup retention period**.
+
+I left the backup window set to **No preference**, enabled **Copy tags to snapshots**, and left cross-Region backup replication disabled for this lab.
+
+I also enabled **Auto minor version upgrade** so Amazon RDS can automatically apply supported PostgreSQL minor version updates during the maintenance process.
+
+## Step 17 – Configure Backup Retention and Maintenance
+
+![Configure RDS Backup Retention and Maintenance](images/17-backup-retention-maintenance.png)
+
+**Figure 17 – Configuring Backup Retention and Maintenance:** I configured the automated backup retention period for **7 days**, providing additional recovery points for the PostgreSQL database.
+
+I left the **Backup window** and **Maintenance window** set to **No preference**, enabled **Copy tags to snapshots**, and kept cross-Region backup replication disabled.
+
+I also enabled **Auto minor version upgrade** so Amazon RDS can automatically apply supported PostgreSQL minor version updates. **Deletion protection** remained disabled for this lab so the RDS instance can be removed after testing to avoid unnecessary AWS charges.
+
+## Step 18 – Final Review and Create the Database
+
+![Create PostgreSQL RDS Database](images/18-create-database.png)
+
+**Figure 18 – Final Review and Database Creation:** I completed the final review of the PostgreSQL RDS configuration before provisioning the database.
+
+I kept **Auto minor version upgrade** enabled, left the **Maintenance window** set to **No preference**, and kept **Deletion protection** disabled because this is a temporary lab environment.
+
+After verifying the configuration, I selected **Create database** to begin provisioning the PostgreSQL RDS instance in AWS.
+
+## Step 19 – Resolve the Backup Retention Configuration Error
+
+![RDS Backup Retention Error](images/19-backup-retention-error.png)
+
+**Figure 19 – Troubleshooting Database Creation:** My first attempt to create the `cloud-dba-lab` RDS instance failed because the configured backup retention period exceeded the limit available under my AWS Free plan.
+
+AWS returned the message: **“The specified backup retention period exceeds the maximum available to free tier customers.”**
+
+I used the error message to identify the configuration issue and returned to the backup settings to reduce the retention period to a supported value before attempting to create the database again.
+
+This demonstrates troubleshooting an RDS provisioning failure by reviewing the AWS error, identifying the unsupported configuration, and correcting the database settings.
+
+## Step 20 – Adjust Backup Retention for the Free Plan
+
+![RDS Backup Configuration](images/20-backup-retention-corrected.png)
+
+**Figure 20 – Correcting the Backup Configuration:** After reviewing the database creation error, I returned to the RDS backup settings and changed the **backup retention period to 1 day**.
+
+Automated backups remained enabled, allowing Amazon RDS to create point-in-time backups while keeping the configuration within the limits of the AWS Free plan.
+
+The backup window was left at **No preference**, allowing AWS to determine when the automated backup process runs.
+
+With the unsupported retention setting corrected, I was ready to retry provisioning the `cloud-dba-lab` PostgreSQL database.
+
