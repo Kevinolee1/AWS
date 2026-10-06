@@ -42,3 +42,45 @@ I selected **Create with full configuration** so I could manually configure the 
 **Figure 5 – Database Engine Selection:** On the **Create database** page, I reviewed the available database engine options, including Aurora, MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, Oracle, and IBM Db2.
 
 For this Cloud DBA lab, I proceeded with **PostgreSQL** as the relational database engine. PostgreSQL will be used to practice database administration tasks such as database creation, user and role management, permissions, SQL queries, backups, monitoring, and troubleshooting.
+
+## Step 6 – Configure the RDS Instance
+
+![RDS Instance Configuration](images/06-rds-instance-configuration.png)
+
+**Figure 6 – RDS Instance Configuration:** I selected the database creation settings and configured the PostgreSQL RDS instance for the lab environment.
+
+I selected the **Free tier db.t4g.micro** instance class to keep the lab lightweight and cost-conscious. I also used **postgres** as the master username. The DB instance identifier would be configured as **cloud-dba-lab** to clearly identify the database resource throughout the project.
+
+## Step 7 – Configure PostgreSQL Settings
+
+![PostgreSQL Database Settings](images/07-postgresql-settings.png)
+
+**Figure 7 – PostgreSQL Database Settings:** I configured the database to use **PostgreSQL 18.3-R2** and set the DB instance identifier to **cloud-dba-lab**.
+
+I kept **postgres** as the master username for database administration. I also left **RDS Extended Support** disabled because it was not required for this lab environment.
+
+## Step 8 – Configure Instance Class and Storage
+
+![RDS Instance Class and Storage](images/08-instance-class-storage.png)
+
+**Figure 8 – Instance Class and Storage:** I configured the RDS instance to use the **db.t4g.micro** burstable instance class with **2 vCPUs and 1 GiB of RAM**, which provided sufficient resources for this lab environment.
+
+For storage, I selected **General Purpose SSD (gp2)** and allocated **20 GiB** of storage. This configuration keeps the environment lightweight while providing enough capacity to practice PostgreSQL database administration tasks.
+
+## Step 9 – Configure Network Connectivity
+
+![RDS Network Connectivity](images/09-rds-network-connectivity.png)
+
+**Figure 9 – RDS Network Connectivity:** I configured the network settings for the PostgreSQL RDS instance. I chose not to connect the database directly to an EC2 compute resource and selected the **Default VPC** and **default DB subnet group**.
+
+The screenshot shows **Public access** initially set to **No**. Because I planned to connect to the database from my local Windows computer for this lab, I later changed **Public access to Yes** and restricted PostgreSQL access through the security group rather than exposing port 5432 to all IP addresses.
+
+## Step 10 – Configure the VPC Security Group
+
+![RDS VPC Security Configuration](images/10-vpc-security-configuration.png)
+
+**Figure 10 – VPC Security Configuration:** I reviewed the VPC security group settings that control network access to the PostgreSQL RDS instance.
+
+At this stage, the **default VPC security group** was selected. I left the **Availability Zone** set to **No preference**, did not enable **RDS Proxy**, and kept the default AWS RDS certificate authority for secure database connections.
+
+Later in the configuration, I created a dedicated security group for the lab and restricted inbound PostgreSQL traffic on **TCP port 5432** to my authorized public IP address.
