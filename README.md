@@ -2,7 +2,7 @@
 
 ## Step 1 – Select an AWS Account Plan
 
-![AWS Account Plan Selection](images/01-aws-account-plan.png)
+![AWS Account Plan Selection](https://github.com/Kevinolee1/AWS/blob/6e3538355b10623600e7d9bf293906ff8da7718f/Screenshot%202026-10-05%20105542.png)
 
 **Figure 1 – AWS Account Plan Selection:** I started the AWS Cloud DBA lab by reviewing the available AWS account plans. For this hands-on learning environment, I selected the **Free plan** to build and configure AWS resources while using the available credits and free usage for eligible services.
 
