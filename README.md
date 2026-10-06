@@ -77,7 +77,7 @@ The screenshot shows **Public access** initially set to **No**. Because I planne
 
 ## Step 10 – Configure the VPC Security Group
 
-![RDS VPC Security Configuration](images/10-vpc-security-configuration.png)
+![RDS VPC Security Configuration](https://github.com/Kevinolee1/AWS/blob/5742174ced92a35cb8b79454406749c006cdd447/Screenshot%202026-10-05%20113951.png)
 
 **Figure 10 – VPC Security Configuration:** I reviewed the VPC security group settings that control network access to the PostgreSQL RDS instance.
 
