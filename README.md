@@ -107,7 +107,7 @@ These settings provide database performance visibility that can be used later to
 
 ## Step 13 – Review Additional Monitoring Settings
 
-![Additional RDS Monitoring Settings](images/13-additional-monitoring.png)
+![Additional RDS Monitoring Settings](https://github.com/Kevinolee1/AWS/blob/26b3bb0aed317e4b6fbcfe7d074b4b7cab245a30/Screenshot%202026-10-05%20114852.png)
 
 **Figure 13 – Reviewing Additional Monitoring Settings:** I reviewed the additional monitoring options available for the PostgreSQL RDS instance, including Enhanced Monitoring, CloudWatch log exports, and Amazon DevOps Guru.
 
