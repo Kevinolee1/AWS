@@ -84,3 +84,53 @@ The screenshot shows **Public access** initially set to **No**. Because I planne
 At this stage, the **default VPC security group** was selected. I left the **Availability Zone** set to **No preference**, did not enable **RDS Proxy**, and kept the default AWS RDS certificate authority for secure database connections.
 
 Later in the configuration, I created a dedicated security group for the lab and restricted inbound PostgreSQL traffic on **TCP port 5432** to my authorized public IP address.
+
+## Step 11 – Create a Dedicated VPC Security Group
+
+![Create RDS Security Group](images/11-create-security-group.png)
+
+**Figure 11 – Creating the RDS Security Group:** I selected **Create new** under the VPC security group settings and created a dedicated security group named `cloud-dba-lab-sg`.
+
+Using a separate security group allows me to control which network traffic can reach the PostgreSQL RDS instance instead of relying on the default security group.
+
+I left the **Availability Zone** set to **No preference**, kept **RDS Proxy** disabled, and retained the default AWS certificate authority for secure connections.
+
+## Step 12 – Configure Database Monitoring
+
+![Configure RDS Monitoring](images/12-monitoring.png)
+
+**Figure 12 – Configuring RDS Monitoring:** I selected **Database Insights – Standard** and enabled detailed database and per-query metrics with the **7-day free retention period**.
+
+For encryption, I kept the default AWS-managed RDS KMS key (`aws/rds`). This provides encryption support for the database while keeping the lab configuration simple and cost-conscious.
+
+These settings provide database performance visibility that can be used later to monitor activity, troubleshoot performance issues, and analyze database behavior.
+
+## Step 13 – Review Additional Monitoring Settings
+
+![Additional RDS Monitoring Settings](images/13-additional-monitoring.png)
+
+**Figure 13 – Reviewing Additional Monitoring Settings:** I reviewed the additional monitoring options available for the PostgreSQL RDS instance, including Enhanced Monitoring, CloudWatch log exports, and Amazon DevOps Guru.
+
+For this lab, I kept **Enhanced Monitoring**, **CloudWatch log exports**, and **DevOps Guru** disabled to maintain a simple, cost-conscious configuration.
+
+These features can be enabled later if more detailed operating system metrics, PostgreSQL logs, or automated performance analysis are required.
+
+## Step 14 – Configure Database Options and Encryption
+
+![RDS Database Options and Encryption](images/14-database-options-encryption.png)
+
+**Figure 14 – Configuring Database Options and Encryption:** I reviewed the additional database configuration settings for the PostgreSQL RDS instance.
+
+I kept the default PostgreSQL 18 parameter and option groups and enabled **encryption at rest** using the AWS-managed RDS KMS key (`aws/rds`).
+
+I left the **Initial database name** blank because the database for the lab would be created manually after connecting to the RDS instance with PostgreSQL.
+
+## Step 15 – Set the Initial Database Name
+
+![Set Initial Database Name](images/15-initial-database-name.png)
+
+**Figure 15 – Setting the Initial Database Name:** I configured the **Initial database name** as `clouddbalab`.
+
+This allows Amazon RDS to automatically create an initial PostgreSQL database when the RDS instance is provisioned.
+
+I kept the default PostgreSQL 18 parameter and option groups and maintained **encryption at rest** using the AWS-managed RDS KMS key (`aws/rds`).
