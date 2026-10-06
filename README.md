@@ -127,7 +127,7 @@ I left the **Initial database name** blank because the database for the lab woul
 
 ## Step 15 – Set the Initial Database Name
 
-![Set Initial Database Name](https://github.com/Kevinolee1/AWS/blob/26526993ce285591a8044bd93c0110e7a504f301/Screenshot%202026-10-05%20115247.png)
+![Set Initial Database Name](https://github.com/Kevinolee1/AWS/blob/a1f42789274eea54a9f7bdc6c81f035ec3cbba01/Screenshot%202026-10-06%20053339.png)
 
 **Figure 15 – Setting the Initial Database Name:** I configured the **Initial database name** as `clouddbalab`.
 
