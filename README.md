@@ -189,3 +189,13 @@ The backup window was left at **No preference**, allowing AWS to determine when 
 
 With the unsupported retention setting corrected, I was ready to retry provisioning the `cloud-dba-lab` PostgreSQL database.
 
+## Step 21 – Provision the RDS PostgreSQL Instance
+
+![RDS PostgreSQL Database Creating](images/21-rds-database-creating.png)
+
+**Figure 21 – RDS PostgreSQL Instance Provisioning:** After correcting the backup configuration, I submitted the database configuration and AWS successfully began provisioning the `cloud-dba-lab` RDS instance.
+
+The database dashboard shows the instance in the **Creating** state with **PostgreSQL** as the database engine and `db.t4g.micro` as the instance class.
+
+This confirmed that the configuration was accepted and the managed PostgreSQL database was being deployed.
+
