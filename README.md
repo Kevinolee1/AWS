@@ -157,7 +157,7 @@ I also enabled **Auto minor version upgrade** so Amazon RDS can automatically ap
 
 ## Step 18 – Final Review and Create the Database
 
-![Create PostgreSQL RDS Database](images/18-create-database.png)
+![Create PostgreSQL RDS Database](https://github.com/Kevinolee1/AWS/blob/3d02bcc5fb29bad752a3278d0b67c16d63eb58db/Screenshot%202026-10-05%20120204.png)
 
 **Figure 18 – Final Review and Database Creation:** I completed the final review of the PostgreSQL RDS configuration before provisioning the database.
 
