@@ -13,7 +13,7 @@ The goal was to create a controlled AWS lab environment where I could gain hands
 
 ## Step 2 – Access the AWS Management Console
 
-![AWS Management Console](images/02-aws-management-console.png)
+![AWS Management Console](https://github.com/Kevinolee1/AWS/blob/a2e6d0009eee6460a9e8bd55e076e7507bbed0de/Screenshot%202026-10-05%20111945.png)
 
 **Figure 2 – AWS Management Console:** After setting up the AWS account, I signed in to the AWS Management Console. From the console, I can access and manage AWS services such as Amazon RDS, EC2, IAM, S3, and CloudWatch.
 
