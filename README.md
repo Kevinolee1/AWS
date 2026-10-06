@@ -29,7 +29,7 @@ This opened the Amazon RDS console, where I could begin creating and configuring
 
 ## Step 4 – Open the Amazon RDS Dashboard
 
-![Amazon RDS Dashboard](images/04-amazon-rds-dashboard.png)
+![Amazon RDS Dashboard](https://github.com/Kevinolee1/AWS/blob/26a8da53e46930d565b92e93f4cab67b77f309aa/Screenshot%202026-10-05%20112724.png)
 
 **Figure 4 – Amazon RDS Dashboard:** After opening **Aurora and RDS**, I arrived at the Amazon RDS dashboard in the **US East (Ohio) – us-east-2** Region.
 
