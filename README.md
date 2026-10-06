@@ -87,7 +87,7 @@ Later in the configuration, I created a dedicated security group for the lab and
 
 ## Step 11 – Create a Dedicated VPC Security Group
 
-![Create RDS Security Group](images/11-create-security-group.png)
+![Create RDS Security Group](https://github.com/Kevinolee1/AWS/blob/daa82e16801042f67de7ede5eafad5adf52006d1/Screenshot%202026-10-05%20114325.png)
 
 **Figure 11 – Creating the RDS Security Group:** I selected **Create new** under the VPC security group settings and created a dedicated security group named `cloud-dba-lab-sg`.
 
