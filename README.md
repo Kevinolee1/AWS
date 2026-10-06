@@ -147,7 +147,7 @@ I also enabled **Auto minor version upgrade** so Amazon RDS can automatically ap
 
 ## Step 17 – Configure Backup Retention and Maintenance
 
-![Configure RDS Backup Retention and Maintenance](images/17-backup-retention-maintenance.png)
+![Configure RDS Backup Retention and Maintenance](https://github.com/Kevinolee1/AWS/blob/f2321ff1efd0578016b47531dcbe82f35b347e4a/Screenshot%202026-10-05%20115541.png)
 
 **Figure 17 – Configuring Backup Retention and Maintenance:** I configured the automated backup retention period for **7 days**, providing additional recovery points for the PostgreSQL database.
 
