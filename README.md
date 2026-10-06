@@ -37,7 +37,7 @@ I selected **Create with full configuration** so I could manually configure the 
 
 ## Step 5 – Select the Database Engine
 
-![Database Engine Selection](images/05-database-engine-selection.png)
+![Database Engine Selection](https://github.com/Kevinolee1/AWS/blob/a0b47edf279914a062ce0a6ac053fe6abbe09af4/Screenshot%202026-10-05%20112850.png)
 
 **Figure 5 – Database Engine Selection:** On the **Create database** page, I reviewed the available database engine options, including Aurora, MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, Oracle, and IBM Db2.
 
