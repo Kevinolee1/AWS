@@ -69,7 +69,7 @@ For storage, I selected **General Purpose SSD (gp2)** and allocated **20 GiB** o
 
 ## Step 9 – Configure Network Connectivity
 
-![RDS Network Connectivity](images/09-rds-network-connectivity.png)
+![RDS Network Connectivity](https://github.com/Kevinolee1/AWS/blob/1d762cdcf61f5dafc580ff15ca5ddeab25345253/Screenshot%202026-10-05%20113810.png)
 
 **Figure 9 – RDS Network Connectivity:** I configured the network settings for the PostgreSQL RDS instance. I chose not to connect the database directly to an EC2 compute resource and selected the **Default VPC** and **default DB subnet group**.
 
