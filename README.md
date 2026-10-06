@@ -21,7 +21,7 @@ I verified that I was working in the **US East (Ohio) – us-east-2** AWS Region
 
 ## Step 3 – Navigate to Amazon RDS
 
-![Amazon RDS Search](images/03-amazon-rds-search.png)
+![Amazon RDS Search](https://github.com/Kevinolee1/AWS/blob/c4f516f649ad7838915710bcf98655e7e69fac57/Screenshot%202026-10-05%20112553.png)
 
 **Figure 3 – Locating Amazon RDS:** From the AWS Management Console, I searched for **RDS** and selected **Aurora and RDS**, AWS's managed relational database service.
 
