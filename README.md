@@ -179,7 +179,7 @@ This demonstrates troubleshooting an RDS provisioning failure by reviewing the A
 
 ## Step 20 – Adjust Backup Retention for the Free Plan
 
-![RDS Backup Configuration](images/20-backup-retention-corrected.png)
+![RDS Backup Configuration](https://github.com/Kevinolee1/AWS/blob/bab2c8df0b523f74dfb88593666f462a07bbbafd/Screenshot%202026-10-06%20053446.png)
 
 **Figure 20 – Correcting the Backup Configuration:** After reviewing the database creation error, I returned to the RDS backup settings and changed the **backup retention period to 1 day**.
 
