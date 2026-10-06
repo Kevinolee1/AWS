@@ -137,7 +137,7 @@ I kept the default PostgreSQL 18 parameter and option groups and maintained **en
 
 ## Step 16 – Configure Automated Backups and Maintenance
 
-![Configure RDS Backups and Maintenance](images/16-backups-maintenance.png)
+![Configure RDS Backups and Maintenance](https://github.com/Kevinolee1/AWS/blob/47d97be2226217804150b79f6a4039f6f54d6677/Screenshot%202026-10-05%20115314.png)
 
 **Figure 16 – Configuring Automated Backups and Maintenance:** I enabled **automated backups** for the PostgreSQL RDS instance and configured a **1-day backup retention period**.
 
