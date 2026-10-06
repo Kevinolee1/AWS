@@ -201,7 +201,7 @@ This confirmed that the configuration was accepted and the managed PostgreSQL da
 
 ## Step 22 – Verify Successful RDS PostgreSQL Deployment
 
-![RDS PostgreSQL Successfully Deployed](images/22-rds-postgresql-available.png)
+![RDS PostgreSQL Successfully Deployed](https://github.com/Kevinolee1/AWS/blob/a9a31a874a24832c1e733021278206e16f7f8451/Screenshot%202026-10-05%20122353.png)
 
 **Figure 22 – RDS PostgreSQL Instance Successfully Deployed:** The `cloud-dba-lab` Amazon RDS instance was successfully created and reached the **Available** state.
 
