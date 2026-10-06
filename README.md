@@ -61,7 +61,7 @@ I kept **postgres** as the master username for database administration. I also l
 
 ## Step 8 – Configure Instance Class and Storage
 
-![RDS Instance Class and Storage](images/08-instance-class-storage.png)
+![RDS Instance Class and Storage](https://github.com/Kevinolee1/AWS/blob/96df1a9975e901a605e21c47ec6f7961c7370229/Screenshot%202026-10-05%20113619.png)
 
 **Figure 8 – Instance Class and Storage:** I configured the RDS instance to use the **db.t4g.micro** burstable instance class with **2 vCPUs and 1 GiB of RAM**, which provided sufficient resources for this lab environment.
 
