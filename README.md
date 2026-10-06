@@ -53,7 +53,7 @@ I selected the **Free tier db.t4g.micro** instance class to keep the lab lightwe
 
 ## Step 7 – Configure PostgreSQL Settings
 
-![PostgreSQL Database Settings](images/07-postgresql-settings.png)
+![PostgreSQL Database Settings](https://github.com/Kevinolee1/AWS/blob/8b54ab13ad9c6e16c53ac00c51ed6647d3559c6b/Screenshot%202026-10-05%20113423.png)
 
 **Figure 7 – PostgreSQL Database Settings:** I configured the database to use **PostgreSQL 18.3-R2** and set the DB instance identifier to **cloud-dba-lab**.
 
