@@ -1,4 +1,5 @@
-# AWS
+# AWS RDS PostgreSQL Deployment Configuration
+
 
 Hands-on cloud database lab demonstrating the deployment and configuration of a PostgreSQL database using Amazon RDS. I configured the database instance, storage, VPC networking, security groups, encryption, automated backups, monitoring, and maintenance settings, troubleshot deployment configuration issues, and successfully provisioned the cloud-dba-lab PostgreSQL instance in AWS.
 
