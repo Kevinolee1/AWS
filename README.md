@@ -97,7 +97,7 @@ I left the **Availability Zone** set to **No preference**, kept **RDS Proxy** di
 
 ## Step 12 – Configure Database Monitoring
 
-![Configure RDS Monitoring](https://github.com/Kevinolee1/AWS/blob/1179ccc6beab8cda3e4d84ce826d0abaa086816d/Screenshot%202026-10-05%20114608.png)
+![Configure RDS Monitoring](https://github.com/Kevinolee1/AWS/blob/165360a925cc1e034e151a9500a84e0be4290e79/Screenshot%202026-10-06%20053223.png)
 
 **Figure 12 – Configuring RDS Monitoring:** I selected **Database Insights – Standard** and enabled detailed database and per-query metrics with the **7-day free retention period**.
 
