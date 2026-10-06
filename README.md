@@ -191,7 +191,7 @@ With the unsupported retention setting corrected, I was ready to retry provision
 
 ## Step 21 – Provision the RDS PostgreSQL Instance
 
-![RDS PostgreSQL Database Creating](images/21-rds-database-creating.png)
+![RDS PostgreSQL Database Creating](https://github.com/Kevinolee1/AWS/blob/ad3bb99e6156e9a3f3105787525f4081fc97a3bd/Screenshot%202026-10-05%20120909.png)
 
 **Figure 21 – RDS PostgreSQL Instance Provisioning:** After correcting the backup configuration, I submitted the database configuration and AWS successfully began provisioning the `cloud-dba-lab` RDS instance.
 
